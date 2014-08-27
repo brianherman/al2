@@ -1,0 +1,51 @@
+﻿Build started 6/23/2014 4:25:55 PM.
+     1>Project "C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum\Aluminum.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Applications\VC\bin\CL.exe /c /IC:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum /IC:\Users\Kyle\Dropbox\XCodeProjects\aluminum\src /IC:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\FreeGlutGLView.cpp ..\..\RendererWin32.cpp ..\..\ResourceHandler.cpp
+         FreeGlutGLView.cpp
+     1>e:\libraries\glm-0.9.4.4\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\applications\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\kyle\dropbox\xcodeprojects\aluminum\windows\freeglutglview.cpp(33): warning C4101: 'bbb' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         ResourceHandler.cpp
+     1>e:\libraries\glm-0.9.4.4\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\applications\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         RendererWin32.cpp
+       Lib:
+         E:\Applications\VC\bin\Lib.exe /OUT:"C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum\Debug\Aluminum.lib" /NOLOGO Debug\Behavior.obj
+         Debug\Camera.obj
+         Debug\FBO.obj
+         Debug\Font.obj
+         Debug\MeshBuffer.obj
+         Debug\MeshData.obj
+         Debug\MeshUtils.obj
+         Debug\Program.obj
+         Debug\Shapes.obj
+         Debug\Texture.obj
+         Debug\FreeGlutGLView.obj
+         Debug\RendererWin32.obj
+         Debug\ResourceHandler.obj
+         Aluminum.vcxproj -> C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum\Debug\Aluminum.lib
+       PostBuildEvent:
+         Powershell -File C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum\PostBuild.ps1
+         :VCEnd
+         
+         
+             Directory: 
+             C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminumlib
+         
+         
+         Mode                LastWriteTime     Length Name                              
+         ----                -------------     ------ ----                              
+         d----         6/23/2014   4:25 PM            include                           
+         d----         6/23/2014   4:25 PM            lib                               
+         
+         
+     1>Done Building Project "C:\Users\Kyle\Dropbox\XCodeProjects\aluminum\windows\Framework\Aluminum\Aluminum.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78
